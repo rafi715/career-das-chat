@@ -1,1 +1,858 @@
-[{"id":1,"text":"","messageType":"MTIO","imageUrl":"http://showmeproject.com/chunkos/assets/image/Ellie-Talks.gif","nextMessageId":"","texts":[{"id":1,"text":"Hi, I'm Ellie!"},{"id":2,"text":"Which one of my friends are you?"}],"optionType":"name","options":[{"id":1,"label":"Jackson","value":"Jackson","nextMessageId":2},{"id":2,"label":"Hazel","value":"Hazel","nextMessageId":2},{"id":3,"label":"Wesley","value":"Wesley","nextMessageId":2},{"id":4,"label":"Ivy","value":"Ivy","nextMessageId":2},{"id":5,"label":"Mark","value":"Mark","nextMessageId":2},{"id":6,"label":"Laynie","value":"Laynie","nextMessageId":2}]},{"id":2,"text":"","messageType":"AMTO","imageUrl":"","nextMessageId":"","texts":[{"id":1,"text":"Welcome my friend, {NAME}"},{"id":2,"text":"Choose an avatar for you, {NAME}!"}],"optionType":"avatar","options":[{"id":1,"label":"Herschel","value":"http://showmeproject.com/chunkos/assets/image/Herschel.png","nextMessageId":3},{"id":2,"label":"Ellie","value":"http://showmeproject.com/chunkos/assets/image/Ellie.png","nextMessageId":3},{"id":3,"label":"Humphrey","value":"http://showmeproject.com/chunkos/assets/image/Humphrey.png","nextMessageId":3},{"id":4,"label":"Mabel","value":"http://showmeproject.com/chunkos/assets/image/Mabel.png","nextMessageId":3},{"id":5,"label":"Porthos","value":"http://showmeproject.com/chunkos/assets/image/Porthos.png","nextMessageId":3}]},{"id":3,"text":"","messageType":"AMTO","imageUrl":"","nextMessageId":"","texts":[{"id":1,"text":"Amazing Choice!"},{"id":2,"text":"How are you feeling today, {NAME}?"}],"optionType":"emotion","options":[{"id":1,"label":"Excited","value":"http://showmeproject.com/chunkos/assets/image/Ellie-Excited.png","nextMessageId":4},{"id":2,"label":"Happy","value":"http://showmeproject.com/chunkos/assets/image/Herschel-Happy.png","nextMessageId":4},{"id":3,"label":"Angry","value":"http://showmeproject.com/chunkos/assets/image/Humphrey-Angry.png","nextMessageId":4},{"id":4,"label":"Sad","value":"http://showmeproject.com/chunkos/assets/image/Mabel-Sad.png","nextMessageId":4},{"id":5,"label":"Scared","value":"http://showmeproject.com/chunkos/assets/image/Porthos-Scared.png","nextMessageId":4}]},{"id":4,"text":"Want to talk about it, {NAME}?","messageType":"AQO","imageUrl":"","nextMessageId":"","optionType":"choice","options":[{"id":1,"label":"Yes","value":"yes","nextMessageId":5},{"id":2,"label":"No","value":"no","nextMessageId":5}]},{"id":5,"text":"","messageType":"AMTO","imageUrl":"","nextMessageId":"","texts":[{"id":1,"text":"Maybe we can cheer you up."},{"id":2,"text":"Want to go on an adventure with us?"}],"optionType":"choice","options":[{"id":1,"label":"Yes","value":"yes","nextMessageId":6},{"id":2,"label":"No","value":"no","nextMessageId":7}]},{"id":6,"text":"Yay! Let's go!","messageType":"ATO","imageUrl":"","nextMessageId":"","optionType":"cat","options":[{"id":1,"label":"Heal","value":"Heal","nextMessageId":8},{"id":2,"label":"Laugh","value":"Laugh","nextMessageId":16},{"id":3,"label":"Escape","value":"www.google.com","nextMessageId":""},{"id":4,"label":"Create","value":"www.google.com","nextMessageId":""}]},{"id":7,"text":"","messageType":"AMTO","imageUrl":"","nextMessageId":"","texts":[{"id":1,"text":"Maybe we can cheer you up."},{"id":2,"text":"Hope to see you in the future!"}],"optionType":"leave","options":[{"id":1,"label":"Goodbye","value":"goodbye","nextMessageId":-1},{"id":2,"label":"Change Your Mind?","value":"Change Your Mind?","nextMessageId":5}]},{"id":8,"text":"","messageType":"AO","imageUrl":"","nextMessageId":"","optionType":"video","options":[{"id":1,"label":"http://showmeproject.com/chunkos/assets/image/image-1.png","value":"https://www.youtube.com/watch?v=ze_ie8Ctp60","name":"Heal"},{"id":2,"label":"http://showmeproject.com/chunkos/assets/image/image-2.png","value":"https://www.youtube.com/watch?v=ze_ie8Ctp60","name":"Heal"},{"id":3,"label":"http://showmeproject.com/chunkos/assets/image/image-2.png","value":"https://www.youtube.com/watch?v=ze_ie8Ctp60","name":"Heal"},{"id":4,"label":"http://showmeproject.com/chunkos/assets/image/image-2.png","value":"https://www.youtube.com/watch?v=ze_ie8Ctp60","name":"Heal"}]},{"id":15,"text":"","messageType":"AMTO","imageUrl":"","nextMessageId":"","texts":[{"id":1,"text":"Do you want watch more"}],"optionType":"choice","options":[{"id":1,"label":"Yes","value":"yes","nextMessageId":8},{"id":2,"label":"No","value":"no","nextMessageId":6}]}]
+[{
+		"id": 1,
+		"text": "",
+		"messageType": "MTIO",
+		"imageUrl": "http://showmeproject.com/chunkos/assets/image/Ellie-Talks.gif",
+		"nextMessageId": "",
+		"texts": [{
+			"id": 1,
+			"text": "Can you work long time before system?"
+		}],
+		"optionType": "name",
+		"options": [{
+				"id": 1,
+				"label": "Yes",
+				"value": "0",
+				"nextMessageId": 2
+			},
+			{
+				"id": 2,
+				"label": "No",
+				"value": "1",
+				"nextMessageId": 2
+			}
+
+		]
+	},
+	{
+		"id": 2,
+		"text": "",
+		"messageType": "AMTO",
+		"imageUrl": "",
+		"nextMessageId": "",
+		"texts": [{
+			"id": 1,
+			"text": "Are you self learner?"
+		}],
+		"optionType": "name",
+		"options": [{
+				"id": 1,
+				"label": "Yes",
+				"value": "0",
+				"nextMessageId": 3
+			},
+			{
+				"id": 2,
+				"label": "No",
+				"value": "1",
+				"nextMessageId": 3
+			}
+		]
+	},
+	{
+		"id": 3,
+		"text": "",
+		"messageType": "AMTO",
+		"imageUrl": "",
+		"nextMessageId": "",
+		"texts": [{
+			"id": 3,
+			"text": "Have you did extra courses?"
+		}],
+		"optionType": "avatar",
+		"options": [{
+				"id": 1,
+				"label": "Yes",
+				"value": "0",
+				"nextMessageId": 4
+			},
+			{
+				"id": 2,
+				"label": "No",
+				"value": "1",
+				"nextMessageId": 4
+			}
+		]
+	},
+	{
+		"id": 4,
+		"text": "",
+		"messageType": "AMTO",
+		"imageUrl": "",
+		"nextMessageId": "",
+		"texts": [{
+			"id": 3,
+			"text": "Please mention your certifications"
+		}],
+		"optionType": "avatar",
+		"options": [{
+				"id": 1,
+				"label": "shell programming",
+				"value": "0",
+				"nextMessageId": 5
+			},
+			{
+				"id": 2,
+				"label": "machine learning",
+				"value": "1",
+				"nextMessageId": 5
+			},
+			{
+				"id": 3,
+				"label": "app development",
+				"value": "2",
+				"nextMessageId": 5
+			},
+			{
+				"id": 4,
+				"label": "python",
+				"value": "3",
+				"nextMessageId": 5
+			},
+			{
+				"id": 5,
+				"label": "r programming",
+				"value": "4",
+				"nextMessageId": 5
+			},
+			{
+				"id": 6,
+				"label": "hadoop",
+				"value": "5",
+				"nextMessageId": 5
+			},
+			{
+				"id": 7,
+				"label": "information security",
+				"value": "6",
+				"nextMessageId": 5
+			},
+			{
+				"id": 8,
+				"label": "distro making",
+				"value": "7",
+				"nextMessageId": 5
+			},
+			{
+				"id": 9,
+				"label": "full stack",
+				"value": "8",
+				"nextMessageId": 5
+			}
+		]
+	},
+	{
+		"id": 5,
+		"text": "",
+		"messageType": "AMTO",
+		"imageUrl": "",
+		"nextMessageId": "",
+		"texts": [{
+			"id": 3,
+			"text": "Do you done with talenttests?"
+		}],
+		"optionType": "avatar",
+		"options": [{
+				"id": 1,
+				"label": "Yes",
+				"value": "0",
+				"nextMessageId": 6
+			},
+			{
+				"id": 2,
+				"label": "No",
+				"value": "1",
+				"nextMessageId": 6
+			}
+		]
+	},
+	{
+		"id": 6,
+		"text": "",
+		"messageType": "AMTO",
+		"imageUrl": "",
+		"nextMessageId": "",
+		"texts": [{
+			"id": 3,
+			"text": "Have you attende olympiad?"
+		}],
+		"optionType": "avatar",
+		"options": [{
+				"id": 1,
+				"label": "Yes",
+				"value": "0",
+				"nextMessageId": 7
+			},
+			{
+				"id": 2,
+				"label": "No",
+				"value": "1",
+				"nextMessageId": 7
+			}
+		]
+	},
+	{
+		"id": 7,
+		"text": "",
+		"messageType": "AMTO",
+		"imageUrl": "",
+		"nextMessageId": "",
+		"texts": [{
+			"id": 3,
+			"text": "Your reading and writting skills?"
+		}],
+		"optionType": "avatar",
+		"options": [{
+				"id": 1,
+				"label": "Excellent",
+				"value": "0",
+				"nextMessageId": 8
+			},
+			{
+				"id": 2,
+				"label": "Medium",
+				"value": "1",
+				"nextMessageId": 8
+			},
+			{
+				"id": 3,
+				"label": "Poor",
+				"value": "2",
+				"nextMessageId": 8
+			}
+		]
+	},
+	{
+		"id": 8,
+		"text": "",
+		"messageType": "AMTO",
+		"imageUrl": "",
+		"nextMessageId": "",
+		"texts": [{
+			"id": 3,
+			"text": "How long you remember things?"
+		}],
+		"optionType": "avatar",
+		"options": [{
+				"id": 1,
+				"label": "Excellent",
+				"value": "0",
+				"nextMessageId": 9
+			},
+			{
+				"id": 2,
+				"label": "Medium",
+				"value": "1",
+				"nextMessageId": 9
+			},
+			{
+				"id": 3,
+				"label": "Poor",
+				"value": "1",
+				"nextMessageId": 9
+			}
+		]
+	},
+	{
+		"id": 9,
+		"text": "",
+		"messageType": "AMTO",
+		"imageUrl": "",
+		"nextMessageId": "",
+		"texts": [{
+			"id": 3,
+			"text": "In which subjects you are interested?"
+		}],
+		"optionType": "avatar",
+		"options": [{
+				"id": 1,
+				"label": "cloud computing",
+				"value": "0",
+				"nextMessageId": 10
+			},
+			{
+				"id": 2,
+				"label": "hacking",
+				"value": "1",
+				"nextMessageId": 10
+			},
+			{
+				"id": 3,
+				"label": "networks",
+				"value": "2",
+				"nextMessageId": 10
+			},
+			{
+				"id": 4,
+				"label": "Computer Architecture",
+				"value": "3",
+				"nextMessageId": 10
+			},
+			{
+				"id": 5,
+				"label": "programming",
+				"value": "4",
+				"nextMessageId": 10
+			},
+			{
+				"id": 6,
+				"label": "parallel computing",
+				"value": "5",
+				"nextMessageId": 10
+			},
+			{
+				"id": 7,
+				"label": "IOT",
+				"value": "6",
+				"nextMessageId": 10
+			},
+			{
+				"id": 8,
+				"label": "Data Engineering",
+				"value": "7",
+				"nextMessageId": 10
+			},
+			{
+				"id": 9,
+				"label": "Software Engineering",
+				"value": "8",
+				"nextMessageId": 10
+			}
+		]
+	},
+	{
+		"id": 10,
+		"text": "",
+		"messageType": "AMTO",
+		"imageUrl": "",
+		"nextMessageId": "",
+		"texts": [{
+			"id": 3,
+			"text": "Which is your career area of interest?"
+		}],
+		"optionType": "avatar",
+		"options": [{
+				"id": 1,
+				"label": "system developer",
+				"value": "0",
+				"nextMessageId": 11
+			},
+			{
+				"id": 2,
+				"label": "Business process analyst",
+				"value": "1",
+				"nextMessageId": 11
+			},
+			{
+				"id": 3,
+				"label": "developer",
+				"value": "2",
+				"nextMessageId": 11
+			},
+			{
+				"id": 4,
+				"label": "testing",
+				"value": "3",
+				"nextMessageId": 11
+			},
+			{
+				"id": 5,
+				"label": "system developer",
+				"value": "4",
+				"nextMessageId": 11
+			},
+			{
+				"id": 6,
+				"label": "security",
+				"value": "5",
+				"nextMessageId": 11
+			},
+			{
+				"id": 7,
+				"label": "cloud computing",
+				"value": "6",
+				"nextMessageId": 11
+			}
+		]
+	},
+	{
+		"id": 12,
+		"text": "",
+		"messageType": "AMTO",
+		"imageUrl": "",
+		"nextMessageId": "",
+		"texts": [{
+			"id": 3,
+			"text": "Do you want a job or you want to study?"
+		}],
+		"optionType": "avatar",
+		"options": [{
+				"id": 1,
+				"label": "Yes",
+				"value": "0",
+				"nextMessageId": 13
+			},
+			{
+				"id": 2,
+				"label": "No",
+				"value": "1",
+				"nextMessageId": 13
+			}
+		]
+	},
+	{
+		"id": 13,
+		"text": "",
+		"messageType": "AMTO",
+		"imageUrl": "",
+		"nextMessageId": "",
+		"texts": [{
+			"id": 3,
+			"text": "Which company you want to settle in?"
+		}],
+		"optionType": "avatar",
+		"options": [{
+				"id": 1,
+				"label": "Web Services",
+				"value": "0",
+				"nextMessageId": 14
+			},
+			{
+				"id": 2,
+				"label": "SAaS services",
+				"value": "1",
+				"nextMessageId": 14
+			},
+			{
+				"id": 3,
+				"label": "Sales and Marketing",
+				"value": "2",
+				"nextMessageId": 14
+			},
+			{
+				"id": 4,
+				"label": "Testing and Maintainance Services",
+				"value": "3",
+				"nextMessageId": 14
+			},
+			{
+				"id": 5,
+				"label": "product development",
+				"value": "4",
+				"nextMessageId": 14
+			},
+			{
+				"id": 6,
+				"label": "BPA",
+				"value": "5",
+				"nextMessageId": 14
+			},
+			{
+				"id": 7,
+				"label": "Service based",
+				"value": "6",
+				"nextMessageId": 14
+			}
+		]
+	},
+	{
+		"id": 14,
+		"text": "",
+		"messageType": "AMTO",
+		"imageUrl": "",
+		"nextMessageId": "",
+		"texts": [{
+			"id": 3,
+			"text": "Have you take inputs from seniors or elders?"
+		}],
+		"optionType": "avatar",
+		"options": [{
+				"id": 1,
+				"label": "Yes",
+				"value": "0",
+				"nextMessageId": 15
+			},
+			{
+				"id": 2,
+				"label": "No",
+				"value": "1",
+				"nextMessageId": 15
+			}
+		]
+	},
+	{
+		"id": 15,
+		"text": "",
+		"messageType": "AMTO",
+		"imageUrl": "",
+		"nextMessageId": "",
+		"texts": [{
+			"id": 3,
+			"text": "Do you like to play games?"
+		}],
+		"optionType": "avatar",
+		"options": [{
+				"id": 1,
+				"label": "Yes",
+				"value": "0",
+				"nextMessageId": 16
+			},
+			{
+				"id": 2,
+				"label": "No",
+				"value": "1",
+				"nextMessageId": 16
+			}
+		]
+	},
+	{
+		"id": 16,
+		"text": "",
+		"messageType": "AMTO",
+		"imageUrl": "",
+		"nextMessageId": "",
+		"texts": [{
+			"id": 3,
+			"text": "Which type of books you like to read?"
+		}],
+		"optionType": "avatar",
+		"options": [{
+				"id": 1,
+				"label": "Prayer books",
+				"value": "0",
+				"nextMessageId": 17
+			},
+			{
+				"id": 2,
+				"label": "Childrens",
+				"value": "1",
+				"nextMessageId": 17
+			},
+			{
+				"id": 3,
+				"label": "Travel",
+				"value": "2",
+				"nextMessageId": 17
+			},
+			{
+				"id": 4,
+				"label": "Romance",
+				"value": "3",
+				"nextMessageId": 17
+			},
+			{
+				"id": 5,
+				"label": "Cookbooks",
+				"value": "4",
+				"nextMessageId": 17
+			},
+			{
+				"id": 6,
+				"label": "Self help",
+				"value": "5",
+				"nextMessageId": 17
+			},
+			{
+				"id": 7,
+				"label": "Math",
+				"value": "6",
+				"nextMessageId": 17
+			},
+			{
+				"id": 8,
+				"label": "Drama",
+				"value": "7",
+				"nextMessageId": 17
+			},
+			{
+				"id": 9,
+				"label": "Mystery",
+				"value": "8",
+				"nextMessageId": 17
+			},
+			{
+				"id": 10,
+				"label": "Religion-Spirituality",
+				"value": "9",
+				"nextMessageId": 17
+			},
+			{
+				"id": 11,
+				"label": "Anthology",
+				"value": "10",
+				"nextMessageId": 17
+			},
+			{
+				"id": 12,
+				"label": "Trilogy",
+				"value": "11",
+				"nextMessageId": 17
+			},
+			{
+				"id": 13,
+				"label": "Autobiographies",
+				"value": "12",
+				"nextMessageId": 17
+			},
+			{
+				"id": 14,
+				"label": "Journals",
+				"value": "13",
+				"nextMessageId": 17
+			},
+			{
+				"id": 15,
+				"label": "Art",
+				"value": "14",
+				"nextMessageId": 17
+			},
+			{
+				"id": 16,
+				"label": "History",
+				"value": "15",
+				"nextMessageId": 17
+			},
+			{
+				"id": 17,
+				"label": "Dictionaries",
+				"value": "16",
+				"nextMessageId": 17
+			},
+			{
+				"id": 18,
+				"label": "Horror",
+				"value": "17",
+				"nextMessageId": 17
+			},
+			{
+				"id": 19,
+				"label": "Action and Adventure",
+				"value": "18",
+				"nextMessageId": 17
+			},
+			{
+				"id": 20,
+				"label": "Fantasy",
+				"value": "19",
+				"nextMessageId": 17
+			},
+			{
+				"id": 21,
+				"label": "Comics",
+				"value": "20",
+				"nextMessageId": 17
+			},
+			{
+				"id": 22,
+				"label": "Series",
+				"value": "21",
+				"nextMessageId": 17
+			},
+			{
+				"id": 23,
+				"label": "Guid",
+				"value": "22",
+				"nextMessageId": 17
+			}
+
+		]
+	},
+	{
+		"id": 17,
+		"text": "",
+		"messageType": "AMTO",
+		"imageUrl": "",
+		"nextMessageId": "",
+		"texts": [{
+			"id": 3,
+			"text": "How much salary range you are expecting?"
+		}],
+		"optionType": "avatar",
+		"options": [{
+				"id": 1,
+				"label": "Work",
+				"value": "0",
+				"nextMessageId": 18
+			},
+			{
+				"id": 2,
+				"label": "Salary",
+				"value": "1",
+				"nextMessageId": 18
+			}
+		]
+	},
+	{
+		"id": 18,
+		"text": "",
+		"messageType": "AMTO",
+		"imageUrl": "",
+		"nextMessageId": "",
+		"texts": [{
+			"id": 3,
+			"text": "Are you in a relationship?"
+		}],
+		"optionType": "avatar",
+		"options": [{
+				"id": 1,
+				"label": "Yes",
+				"value": "0",
+				"nextMessageId": 19
+			},
+			{
+				"id": 2,
+				"label": "No",
+				"value": "1",
+				"nextMessageId": 19
+			}
+		]
+	},
+	{
+		"id": 19,
+		"text": "",
+		"messageType": "AMTO",
+		"imageUrl": "",
+		"nextMessageId": "",
+		"texts": [{
+			"id": 3,
+			"text": "What is your behaviour type?"
+		}],
+		"optionType": "avatar",
+		"options": [{
+				"id": 1,
+				"label": "Gentle",
+				"value": "0",
+				"nextMessageId": 20
+			},
+			{
+				"id": 2,
+				"label": "Stubborn",
+				"value": "1",
+				"nextMessageId": 20
+			}
+		]
+	},
+	{
+		"id": 20,
+		"text": "",
+		"messageType": "AMTO",
+		"imageUrl": "",
+		"nextMessageId": "",
+		"texts": [{
+			"id": 3,
+			"text": "Management or technical?"
+		}],
+		"optionType": "avatar",
+		"options": [{
+				"id": 1,
+				"label": "Management",
+				"value": "0",
+				"nextMessageId": 21
+			},
+			{
+				"id": 2,
+				"label": "technical",
+				"value": "1",
+				"nextMessageId": 21
+			}
+		]
+	},
+	{
+		"id": 21,
+		"text": "",
+		"messageType": "AMTO",
+		"imageUrl": "",
+		"nextMessageId": "",
+		"texts": [{
+			"id": 3,
+			"text": "salary/work?"
+		}],
+		"optionType": "avatar",
+		"options": [{
+				"id": 1,
+				"label": "salary",
+				"value": "0",
+				"nextMessageId": 22
+			},
+			{
+				"id": 2,
+				"label": "work",
+				"value": "1",
+				"nextMessageId": 22
+			}
+		]
+	},
+	{
+		"id": 22,
+		"text": "",
+		"messageType": "AMTO",
+		"imageUrl": "",
+		"nextMessageId": "",
+		"texts": [{
+			"id": 3,
+			"text": "You are hard worker or smart worker?"
+		}],
+		"optionType": "avatar",
+		"options": [{
+				"id": 1,
+				"label": "hard worker",
+				"value": "0",
+				"nextMessageId": 23
+			},
+			{
+				"id": 2,
+				"label": "smart worker",
+				"value": "1",
+				"nextMessageId": 23
+			}
+		]
+	},
+	{
+		"id": 23,
+		"text": "",
+		"messageType": "AMTO",
+		"imageUrl": "",
+		"nextMessageId": "",
+		"texts": [{
+			"id": 3,
+			"text": "Have you worked in team ever?"
+		}],
+		"optionType": "avatar",
+		"options": [{
+				"id": 1,
+				"label": "Yes",
+				"value": "0",
+				"nextMessageId": 24
+			},
+			{
+				"id": 2,
+				"label": "No",
+				"value": "1",
+				"nextMessageId": 24
+			}
+		]
+	},
+	{
+		"id": 24,
+		"text": "",
+		"messageType": "AMTO",
+		"imageUrl": "",
+		"nextMessageId": "",
+		"texts": [{
+			"id": 3,
+			"text": "Are you introvert?"
+		}],
+		"optionType": "avatar",
+		"options": [{
+				"id": 1,
+				"label": "Yes",
+				"value": "0"
+			},
+			{
+				"id": 2,
+				"label": "No",
+				"value": "1"
+			}
+		]
+	}
+]
