@@ -692,7 +692,7 @@
 			"id": 1,
 			"text": "Are you in a relationship?"
 		}],
-		"optionType": "avatar",
+		"optionType": "name",
 		"options": [{
 				"id": 1,
 				"label": "Yes",
