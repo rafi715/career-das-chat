@@ -56,7 +56,7 @@
 		"imageUrl": "",
 		"nextMessageId": "",
 		"texts": [{
-			"id": 3,
+			"id": 1,
 			"text": "Have you did extra courses?"
 		}],
 		"optionType": "name",
@@ -81,7 +81,7 @@
 		"imageUrl": "",
 		"nextMessageId": "",
 		"texts": [{
-			"id": 3,
+			"id": 1,
 			"text": "Please mention your certifications"
 		}],
 		"optionType": "name",
