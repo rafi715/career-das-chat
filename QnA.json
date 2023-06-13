@@ -376,7 +376,7 @@
 		]
 	},
 	{
-		"id": 12,
+		"id": 11,
 		"text": "",
 		"messageType": "AMTO",
 		"imageUrl": "",
@@ -390,18 +390,18 @@
 				"id": 1,
 				"label": "Yes",
 				"value": "0",
-				"nextMessageId": 13
+				"nextMessageId": 12
 			},
 			{
 				"id": 2,
 				"label": "No",
 				"value": "1",
-				"nextMessageId": 13
+				"nextMessageId": 12
 			}
 		]
 	},
 	{
-		"id": 13,
+		"id": 12,
 		"text": "",
 		"messageType": "AMTO",
 		"imageUrl": "",
@@ -415,42 +415,67 @@
 				"id": 1,
 				"label": "Web Services",
 				"value": "0",
-				"nextMessageId": 14
+				"nextMessageId": 13
 			},
 			{
 				"id": 2,
 				"label": "SAaS services",
 				"value": "1",
-				"nextMessageId": 14
+				"nextMessageId": 13
 			},
 			{
 				"id": 3,
 				"label": "Sales and Marketing",
 				"value": "2",
-				"nextMessageId": 14
+				"nextMessageId": 13
 			},
 			{
 				"id": 4,
 				"label": "Testing and Maintainance Services",
 				"value": "3",
-				"nextMessageId": 14
+				"nextMessageId": 13
 			},
 			{
 				"id": 5,
 				"label": "product development",
 				"value": "4",
-				"nextMessageId": 14
+				"nextMessageId": 13
 			},
 			{
 				"id": 6,
 				"label": "BPA",
 				"value": "5",
-				"nextMessageId": 14
+				"nextMessageId": 13
 			},
 			{
 				"id": 7,
 				"label": "Service based",
 				"value": "6",
+				"nextMessageId": 13
+			}
+		]
+	},
+	{
+		"id": 13,
+		"text": "",
+		"messageType": "AMTO",
+		"imageUrl": "",
+		"nextMessageId": "",
+		"texts": [{
+			"id": 1,
+			"text": "Have you take inputs from seniors or elders?"
+		}],
+		"optionType": "name",
+		"options": [{
+				"id": 1,
+				"label": "Yes",
+				"value": "0",
+				"nextMessageId": 14
+			},
+			{
+				"id": 2,
+				"label": "No",
+				"value": "1",
 				"nextMessageId": 14
 			}
 		]
@@ -463,7 +488,7 @@
 		"nextMessageId": "",
 		"texts": [{
 			"id": 1,
-			"text": "Have you take inputs from seniors or elders?"
+			"text": "Do you like to play games?"
 		}],
 		"optionType": "name",
 		"options": [{
@@ -488,31 +513,6 @@
 		"nextMessageId": "",
 		"texts": [{
 			"id": 1,
-			"text": "Do you like to play games?"
-		}],
-		"optionType": "name",
-		"options": [{
-				"id": 1,
-				"label": "Yes",
-				"value": "0",
-				"nextMessageId": 16
-			},
-			{
-				"id": 2,
-				"label": "No",
-				"value": "1",
-				"nextMessageId": 16
-			}
-		]
-	},
-	{
-		"id": 16,
-		"text": "",
-		"messageType": "AMTO",
-		"imageUrl": "",
-		"nextMessageId": "",
-		"texts": [{
-			"id": 1,
 			"text": "Which type of books you like to read?"
 		}],
 		"optionType": "name",
@@ -520,145 +520,145 @@
 				"id": 1,
 				"label": "Prayer books",
 				"value": "0",
-				"nextMessageId": 17
+				"nextMessageId": 16
 			},
 			{
 				"id": 2,
 				"label": "Childrens",
 				"value": "1",
-				"nextMessageId": 17
+				"nextMessageId": 16
 			},
 			{
 				"id": 3,
 				"label": "Travel",
 				"value": "2",
-				"nextMessageId": 17
+				"nextMessageId": 16
 			},
 			{
 				"id": 4,
 				"label": "Romance",
 				"value": "3",
-				"nextMessageId": 17
+				"nextMessageId": 16
 			},
 			{
 				"id": 5,
 				"label": "Cookbooks",
 				"value": "4",
-				"nextMessageId": 17
+				"nextMessageId": 16
 			},
 			{
 				"id": 6,
 				"label": "Self help",
 				"value": "5",
-				"nextMessageId": 17
+				"nextMessageId": 16
 			},
 			{
 				"id": 7,
 				"label": "Math",
 				"value": "6",
-				"nextMessageId": 17
+				"nextMessageId": 16
 			},
 			{
 				"id": 8,
 				"label": "Drama",
 				"value": "7",
-				"nextMessageId": 17
+				"nextMessageId": 16
 			},
 			{
 				"id": 9,
 				"label": "Mystery",
 				"value": "8",
-				"nextMessageId": 17
+				"nextMessageId": 16
 			},
 			{
 				"id": 10,
 				"label": "Religion-Spirituality",
 				"value": "9",
-				"nextMessageId": 17
+				"nextMessageId": 16
 			},
 			{
 				"id": 11,
 				"label": "Anthology",
 				"value": "10",
-				"nextMessageId": 17
+				"nextMessageId": 16
 			},
 			{
 				"id": 12,
 				"label": "Trilogy",
 				"value": "11",
-				"nextMessageId": 17
+				"nextMessageId": 16
 			},
 			{
 				"id": 13,
 				"label": "Autobiographies",
 				"value": "12",
-				"nextMessageId": 17
+				"nextMessageId": 16
 			},
 			{
 				"id": 14,
 				"label": "Journals",
 				"value": "13",
-				"nextMessageId": 17
+				"nextMessageId": 16
 			},
 			{
 				"id": 15,
 				"label": "Art",
 				"value": "14",
-				"nextMessageId": 17
+				"nextMessageId": 16
 			},
 			{
 				"id": 16,
 				"label": "History",
 				"value": "15",
-				"nextMessageId": 17
+				"nextMessageId": 16
 			},
 			{
 				"id": 17,
 				"label": "Dictionaries",
 				"value": "16",
-				"nextMessageId": 17
+				"nextMessageId": 16
 			},
 			{
 				"id": 18,
 				"label": "Horror",
 				"value": "17",
-				"nextMessageId": 17
+				"nextMessageId": 16
 			},
 			{
 				"id": 19,
 				"label": "Action and Adventure",
 				"value": "18",
-				"nextMessageId": 17
+				"nextMessageId": 16
 			},
 			{
 				"id": 20,
 				"label": "Fantasy",
 				"value": "19",
-				"nextMessageId": 17
+				"nextMessageId": 16
 			},
 			{
 				"id": 21,
 				"label": "Comics",
 				"value": "20",
-				"nextMessageId": 17
+				"nextMessageId": 16
 			},
 			{
 				"id": 22,
 				"label": "Series",
 				"value": "21",
-				"nextMessageId": 17
+				"nextMessageId": 16
 			},
 			{
 				"id": 23,
 				"label": "Guid",
 				"value": "22",
-				"nextMessageId": 17
+				"nextMessageId": 16
 			}
 
 		]
 	},
 	{
-		"id": 17,
+		"id": 16,
 		"text": "",
 		"messageType": "AMTO",
 		"imageUrl": "",
@@ -672,18 +672,18 @@
 				"id": 1,
 				"label": "Work",
 				"value": "0",
-				"nextMessageId": 18
+				"nextMessageId": 17
 			},
 			{
 				"id": 2,
 				"label": "Salary",
 				"value": "1",
-				"nextMessageId": 18
+				"nextMessageId": 17
 			}
 		]
 	},
 	{
-		"id": 18,
+		"id": 17,
 		"text": "",
 		"messageType": "AMTO",
 		"imageUrl": "",
@@ -697,18 +697,18 @@
 				"id": 1,
 				"label": "Yes",
 				"value": "0",
-				"nextMessageId": 19
+				"nextMessageId": 18
 			},
 			{
 				"id": 2,
 				"label": "No",
 				"value": "1",
-				"nextMessageId": 19
+				"nextMessageId": 18
 			}
 		]
 	},
 	{
-		"id": 19,
+		"id": 18,
 		"text": "",
 		"messageType": "AMTO",
 		"imageUrl": "",
@@ -722,18 +722,18 @@
 				"id": 1,
 				"label": "Gentle",
 				"value": "0",
-				"nextMessageId": 20
+				"nextMessageId": 19
 			},
 			{
 				"id": 2,
 				"label": "Stubborn",
 				"value": "1",
-				"nextMessageId": 20
+				"nextMessageId": 19
 			}
 		]
 	},
 	{
-		"id": 20,
+		"id": 19,
 		"text": "",
 		"messageType": "AMTO",
 		"imageUrl": "",
@@ -747,18 +747,18 @@
 				"id": 1,
 				"label": "Management",
 				"value": "0",
-				"nextMessageId": 21
+				"nextMessageId": 20
 			},
 			{
 				"id": 2,
 				"label": "technical",
 				"value": "1",
-				"nextMessageId": 21
+				"nextMessageId": 20
 			}
 		]
 	},
 	{
-		"id": 21,
+		"id": 20,
 		"text": "",
 		"messageType": "AMTO",
 		"imageUrl": "",
@@ -772,18 +772,18 @@
 				"id": 1,
 				"label": "salary",
 				"value": "0",
-				"nextMessageId": 22
+				"nextMessageId": 21
 			},
 			{
 				"id": 2,
 				"label": "work",
 				"value": "1",
-				"nextMessageId": 22
+				"nextMessageId": 21
 			}
 		]
 	},
 	{
-		"id": 22,
+		"id": 21,
 		"text": "",
 		"messageType": "AMTO",
 		"imageUrl": "",
@@ -797,18 +797,18 @@
 				"id": 1,
 				"label": "hard worker",
 				"value": "0",
-				"nextMessageId": 23
+				"nextMessageId": 22
 			},
 			{
 				"id": 2,
 				"label": "smart worker",
 				"value": "1",
-				"nextMessageId": 23
+				"nextMessageId": 22
 			}
 		]
 	},
 	{
-		"id": 23,
+		"id": 22,
 		"text": "",
 		"messageType": "AMTO",
 		"imageUrl": "",
@@ -822,18 +822,18 @@
 				"id": 1,
 				"label": "Yes",
 				"value": "0",
-				"nextMessageId": 24
+				"nextMessageId": 23
 			},
 			{
 				"id": 2,
 				"label": "No",
 				"value": "1",
-				"nextMessageId": 24
+				"nextMessageId": 23
 			}
 		]
 	},
 	{
-		"id": 24,
+		"id": 23,
 		"text": "",
 		"messageType": "AMTO",
 		"imageUrl": "",
@@ -846,12 +846,14 @@
 		"options": [{
 				"id": 1,
 				"label": "Yes",
-				"value": "0"
+				"value": "0",
+				"nextMessageId": -1
 			},
 			{
 				"id": 2,
 				"label": "No",
-				"value": "1"
+				"value": "1",
+				"nextMessageId": -1
 			}
 		]
 	}
