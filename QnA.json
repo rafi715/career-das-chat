@@ -151,7 +151,7 @@
 			"id": 1,
 			"text": "Do you done with talenttests?"
 		}],
-		"optionType": "avatar",
+		"optionType": "name",
 		"options": [{
 				"id": 1,
 				"label": "Yes",
@@ -176,7 +176,7 @@
 			"id": 1,
 			"text": "Have you attende olympiad?"
 		}],
-		"optionType": "avatar",
+		"optionType": "name",
 		"options": [{
 				"id": 1,
 				"label": "Yes",
@@ -201,7 +201,7 @@
 			"id": 1,
 			"text": "Your reading and writting skills?"
 		}],
-		"optionType": "avatar",
+		"optionType": "name",
 		"options": [{
 				"id": 1,
 				"label": "Excellent",
@@ -232,7 +232,7 @@
 			"id": 1,
 			"text": "How long you remember things?"
 		}],
-		"optionType": "avatar",
+		"optionType": "name",
 		"options": [{
 				"id": 1,
 				"label": "Excellent",
@@ -263,7 +263,7 @@
 			"id": 1,
 			"text": "In which subjects you are interested?"
 		}],
-		"optionType": "avatar",
+		"optionType": "name",
 		"options": [{
 				"id": 1,
 				"label": "cloud computing",
@@ -330,7 +330,7 @@
 			"id": 1,
 			"text": "Which is your career area of interest?"
 		}],
-		"optionType": "avatar",
+		"optionType": "name",
 		"options": [{
 				"id": 1,
 				"label": "system developer",
@@ -385,7 +385,7 @@
 			"id": 1,
 			"text": "Do you want a job or you want to study?"
 		}],
-		"optionType": "avatar",
+		"optionType": "name",
 		"options": [{
 				"id": 1,
 				"label": "Yes",
@@ -410,7 +410,7 @@
 			"id": 1,
 			"text": "Which company you want to settle in?"
 		}],
-		"optionType": "avatar",
+		"optionType": "name",
 		"options": [{
 				"id": 1,
 				"label": "Web Services",
@@ -465,7 +465,7 @@
 			"id": 1,
 			"text": "Have you take inputs from seniors or elders?"
 		}],
-		"optionType": "avatar",
+		"optionType": "name",
 		"options": [{
 				"id": 1,
 				"label": "Yes",
@@ -490,7 +490,7 @@
 			"id": 1,
 			"text": "Do you like to play games?"
 		}],
-		"optionType": "avatar",
+		"optionType": "name",
 		"options": [{
 				"id": 1,
 				"label": "Yes",
@@ -515,7 +515,7 @@
 			"id": 1,
 			"text": "Which type of books you like to read?"
 		}],
-		"optionType": "avatar",
+		"optionType": "name",
 		"options": [{
 				"id": 1,
 				"label": "Prayer books",
@@ -667,7 +667,7 @@
 			"id": 1,
 			"text": "How much salary range you are expecting?"
 		}],
-		"optionType": "avatar",
+		"optionType": "name",
 		"options": [{
 				"id": 1,
 				"label": "Work",
@@ -717,7 +717,7 @@
 			"id": 1,
 			"text": "What is your behaviour type?"
 		}],
-		"optionType": "avatar",
+		"optionType": "name",
 		"options": [{
 				"id": 1,
 				"label": "Gentle",
@@ -742,7 +742,7 @@
 			"id": 1,
 			"text": "Management or technical?"
 		}],
-		"optionType": "avatar",
+		"optionType": "name",
 		"options": [{
 				"id": 1,
 				"label": "Management",
@@ -767,7 +767,7 @@
 			"id": 1,
 			"text": "salary/work?"
 		}],
-		"optionType": "avatar",
+		"optionType": "name",
 		"options": [{
 				"id": 1,
 				"label": "salary",
@@ -792,7 +792,7 @@
 			"id": 1,
 			"text": "You are hard worker or smart worker?"
 		}],
-		"optionType": "avatar",
+		"optionType": "name",
 		"options": [{
 				"id": 1,
 				"label": "hard worker",
@@ -817,7 +817,7 @@
 			"id": 1,
 			"text": "Have you worked in team ever?"
 		}],
-		"optionType": "avatar",
+		"optionType": "name",
 		"options": [{
 				"id": 1,
 				"label": "Yes",
@@ -842,7 +842,7 @@
 			"id": 1,
 			"text": "Are you introvert?"
 		}],
-		"optionType": "avatar",
+		"optionType": "name",
 		"options": [{
 				"id": 1,
 				"label": "Yes",
