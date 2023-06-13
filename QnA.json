@@ -59,7 +59,7 @@
 			"id": 3,
 			"text": "Have you did extra courses?"
 		}],
-		"optionType": "avatar",
+		"optionType": "name",
 		"options": [{
 				"id": 1,
 				"label": "Yes",
@@ -84,7 +84,7 @@
 			"id": 3,
 			"text": "Please mention your certifications"
 		}],
-		"optionType": "avatar",
+		"optionType": "name",
 		"options": [{
 				"id": 1,
 				"label": "shell programming",
