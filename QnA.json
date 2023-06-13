@@ -148,7 +148,7 @@
 		"imageUrl": "",
 		"nextMessageId": "",
 		"texts": [{
-			"id": 3,
+			"id": 1,
 			"text": "Do you done with talenttests?"
 		}],
 		"optionType": "avatar",
@@ -173,7 +173,7 @@
 		"imageUrl": "",
 		"nextMessageId": "",
 		"texts": [{
-			"id": 3,
+			"id": 1,
 			"text": "Have you attende olympiad?"
 		}],
 		"optionType": "avatar",
@@ -198,7 +198,7 @@
 		"imageUrl": "",
 		"nextMessageId": "",
 		"texts": [{
-			"id": 3,
+			"id": 1,
 			"text": "Your reading and writting skills?"
 		}],
 		"optionType": "avatar",
@@ -229,7 +229,7 @@
 		"imageUrl": "",
 		"nextMessageId": "",
 		"texts": [{
-			"id": 3,
+			"id": 1,
 			"text": "How long you remember things?"
 		}],
 		"optionType": "avatar",
@@ -260,7 +260,7 @@
 		"imageUrl": "",
 		"nextMessageId": "",
 		"texts": [{
-			"id": 3,
+			"id": 1,
 			"text": "In which subjects you are interested?"
 		}],
 		"optionType": "avatar",
@@ -327,7 +327,7 @@
 		"imageUrl": "",
 		"nextMessageId": "",
 		"texts": [{
-			"id": 3,
+			"id": 1,
 			"text": "Which is your career area of interest?"
 		}],
 		"optionType": "avatar",
@@ -382,7 +382,7 @@
 		"imageUrl": "",
 		"nextMessageId": "",
 		"texts": [{
-			"id": 3,
+			"id": 1,
 			"text": "Do you want a job or you want to study?"
 		}],
 		"optionType": "avatar",
@@ -407,7 +407,7 @@
 		"imageUrl": "",
 		"nextMessageId": "",
 		"texts": [{
-			"id": 3,
+			"id": 1,
 			"text": "Which company you want to settle in?"
 		}],
 		"optionType": "avatar",
@@ -462,7 +462,7 @@
 		"imageUrl": "",
 		"nextMessageId": "",
 		"texts": [{
-			"id": 3,
+			"id": 1,
 			"text": "Have you take inputs from seniors or elders?"
 		}],
 		"optionType": "avatar",
@@ -487,7 +487,7 @@
 		"imageUrl": "",
 		"nextMessageId": "",
 		"texts": [{
-			"id": 3,
+			"id": 1,
 			"text": "Do you like to play games?"
 		}],
 		"optionType": "avatar",
@@ -512,7 +512,7 @@
 		"imageUrl": "",
 		"nextMessageId": "",
 		"texts": [{
-			"id": 3,
+			"id": 1,
 			"text": "Which type of books you like to read?"
 		}],
 		"optionType": "avatar",
@@ -664,7 +664,7 @@
 		"imageUrl": "",
 		"nextMessageId": "",
 		"texts": [{
-			"id": 3,
+			"id": 1,
 			"text": "How much salary range you are expecting?"
 		}],
 		"optionType": "avatar",
@@ -689,7 +689,7 @@
 		"imageUrl": "",
 		"nextMessageId": "",
 		"texts": [{
-			"id": 3,
+			"id": 1,
 			"text": "Are you in a relationship?"
 		}],
 		"optionType": "avatar",
@@ -714,7 +714,7 @@
 		"imageUrl": "",
 		"nextMessageId": "",
 		"texts": [{
-			"id": 3,
+			"id": 1,
 			"text": "What is your behaviour type?"
 		}],
 		"optionType": "avatar",
@@ -739,7 +739,7 @@
 		"imageUrl": "",
 		"nextMessageId": "",
 		"texts": [{
-			"id": 3,
+			"id": 1,
 			"text": "Management or technical?"
 		}],
 		"optionType": "avatar",
@@ -764,7 +764,7 @@
 		"imageUrl": "",
 		"nextMessageId": "",
 		"texts": [{
-			"id": 3,
+			"id": 1,
 			"text": "salary/work?"
 		}],
 		"optionType": "avatar",
@@ -789,7 +789,7 @@
 		"imageUrl": "",
 		"nextMessageId": "",
 		"texts": [{
-			"id": 3,
+			"id": 1,
 			"text": "You are hard worker or smart worker?"
 		}],
 		"optionType": "avatar",
@@ -814,7 +814,7 @@
 		"imageUrl": "",
 		"nextMessageId": "",
 		"texts": [{
-			"id": 3,
+			"id": 1,
 			"text": "Have you worked in team ever?"
 		}],
 		"optionType": "avatar",
@@ -839,7 +839,7 @@
 		"imageUrl": "",
 		"nextMessageId": "",
 		"texts": [{
-			"id": 3,
+			"id": 1,
 			"text": "Are you introvert?"
 		}],
 		"optionType": "avatar",
