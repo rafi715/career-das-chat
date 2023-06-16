@@ -1,4 +1,5 @@
-[{
+[
+	{
 		"id": 1,
 		"text": "",
 		"messageType": "MTIO",
@@ -388,13 +389,13 @@
 		"optionType": "name",
 		"options": [{
 				"id": 1,
-				"label": "Yes",
+				"label": "Study",
 				"value": "0",
 				"nextMessageId": 12
 			},
 			{
 				"id": 2,
-				"label": "No",
+				"label": "Work",
 				"value": "1",
 				"nextMessageId": 12
 			}
