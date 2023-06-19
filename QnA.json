@@ -6,19 +6,61 @@
 		"nextMessageId": "",
 		"texts": [{
 			"id": 1,
-			"text": "Can you work long time before system?"
+			"text": "How many hours you can work in a day"
 		}],
 		"optionType": "name",
 		"options": [{
 				"id": 1,
-				"label": "Yes",
-				"value": "0",
+				"label": "4",
+				"value": "4",
 				"nextMessageId": 2
 			},
 			{
 				"id": 2,
-				"label": "No",
-				"value": "1",
+				"label": "5",
+				"value": "5",
+				"nextMessageId": 2
+			}
+			{
+				"id": 3,
+				"label": "6",
+				"value": "6",
+				"nextMessageId": 2
+			}
+			{
+				"id": 4,
+				"label": "7",
+				"value": "7",
+				"nextMessageId": 2
+			}
+			{
+				"id": 5,
+				"label": "8",
+				"value": "8",
+				"nextMessageId": 2
+			}
+			{
+				"id": 6,
+				"label": "9",
+				"value": "9",
+				"nextMessageId": 2
+			}
+			{
+				"id": 7,
+				"label": "10",
+				"value": "10",
+				"nextMessageId": 2
+			}
+			{
+				"id": 8,
+				"label": "11",
+				"value": "11",
+				"nextMessageId": 2
+			}
+			{
+				"id": 9,
+				"label": "12",
+				"value": "12",
 				"nextMessageId": 2
 			}
 
