@@ -1,7 +1,7 @@
 [{
 		"id": 1,
 		"text": "",
-		"messageType": "",
+		"messageType": "MTIO",
 		"imageUrl": "",
 		"nextMessageId": "",
 		"texts": [{
@@ -63,7 +63,7 @@
 	{
 		"id": 2,
 		"text": "",
-		"messageType": "",
+		"messageType": "MTIO",
 		"imageUrl": "",
 		"nextMessageId": "",
 		"texts": [{
@@ -124,7 +124,7 @@
 	{
 		"id": 3,
 		"text": "",
-		"messageType": "",
+		"messageType": "MTIO",
 		"imageUrl": "",
 		"nextMessageId": "",
 		"texts": [{
